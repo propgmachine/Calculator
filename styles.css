@@ -1,19 +1,19 @@
 body {
-    background-color: #888;
+    background-color: #FFD480;
 }
-
-table {
+    
+    table {
     margin: auto;
-    background-color: #222;
+    background-color: #3377FF;
     width: 295px;
     max-width: 295px;
     height: 325px;
     text-align: center;
     border-radius: 4px;
     padding-right: 10px;
-}
+    }
 
-input {
+    input {
     outline: 0;
     position: relative;
     left: 5px;
@@ -29,9 +29,8 @@ input {
     font-size: 20px;
     box-shadow: 0 4px rgba(0,0,0,0.2);
     margin-bottom: 15px;
-}
-
-input:hover {
+    }
+    input:hover {
     border: 0 solid #000;
     color: #495069;
     background-color: #fff;
@@ -42,9 +41,8 @@ input:hover {
     margin: 5px;
     font-size: 20px;
     box-shadow: 0 4px #b0d2cf;
-}
-
-input:active {
+    }
+    input:active {
     top: 4px;
     border: 0 solid #000;
     color: #495069;
@@ -56,65 +54,65 @@ input:active {
     margin: 5px;
     font-size: 20px;
     box-shadow: none;
-}
+    }
 
-#display {
+    #display {
     width: 265px;
     max-width: 270px;
     font-size: 26px;
     text-align: right;
-    background-color: #bcbd95;
+    background-color: #99FFEE;
     float: left;
-}
+    }
 
-#display:hover {
+    #display:hover {
     width: 270px;
     font-size: 26px;
     text-align: right;
-    background-color: #bcbd95;
+    background-color: #33DDFF;
     box-shadow: 0 4px rgba(0,0,0,0.2);
-}
+    }
 
-#display:active {
+    #display:active {
     top: 5px;
     width: 270px;
     font-size: 26px;
     text-align: right;
-    background-color: #bcbd95;
+    background-color: #80BFFF;
     box-shadow: 0 4px rgba(0,0,0,0.2);
-}
+    }
 
-.operator {
+    .operator {
     background-color: #cee9ea;
     position: relative;
-}
+    }
 
-.operator:hover {
+    .operator:hover {
     background-color: #cee9ea;
     box-shadow: 0 4px #b0d2cf;
-}
+    }
 
-.operator:active {
+    .operator:active {
     top: 4px;
     box-shadow: none;
-}
+    }
 
-#clear {
+    #clear {
     float: left;
     position: relative;
     display: block;
     background-color: #ff9fa8;
-}
+    }
 
-#clear:hover {
+    #clear:hover {
     float: left;
     display: block;
     background-color: #F297A0;
     margin-bottom: 15px;
     box-shadow: 0 4px #CC7F86;
-}
+    }
 
-#clear:active {
+    #clear:active {
     float: left;
     top: 4px;
     display: block;
